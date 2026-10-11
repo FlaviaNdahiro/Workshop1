@@ -28,6 +28,44 @@
         class="peer sr-only"
       >
 
+      <!-- Hamburger icon: mobile only -->
+      <label
+        for="menu-toggle"
+        class="cursor-pointer text-3xl p-2 md:hidden focus-within:outline-2 focus-within:outline-white"
+        aria-label="Toggle navigation menu"
+      >
+        ☰
+      </label>
+
+      <!-- Navigation links -->
+      <div
+        class="hidden peer-checked:flex w-full flex-col gap-4 pt-4 md:flex md:w-auto md:flex-row md:items-center md:gap-6 md:pt-0"
+      >
+        <a href="#home"
+           class="rounded px-2 py-1 hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-white">
+          Home
+        </a>
+
+        <a href="#about"
+           class="rounded px-2 py-1 hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-white">
+          About
+        </a>
+
+        <a href="#services"
+           class="rounded px-2 py-1 hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-white">
+          Services
+        </a>
+
+        <a href="#contact"
+           class="rounded px-2 py-1 hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-white">
+          Contact
+        </a>
+      </div>
+
+    </div>
+
+  </nav>
+>
 
 </body>
 </html>
